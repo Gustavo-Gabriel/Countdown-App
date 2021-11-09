@@ -20,7 +20,7 @@ public extension Coordinator {
     func show(_ viewControllers: [UIViewController],
               animated: Bool = true,
               shouldHideTabBar: Bool = false) {
-        
+
         if (viewControllers.first != nil) && shouldHideTabBar {
             viewControllers.first?.hidesBottomBarWhenPushed = true
         }
