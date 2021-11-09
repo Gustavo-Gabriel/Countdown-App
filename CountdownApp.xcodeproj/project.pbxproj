@@ -16,6 +16,7 @@
 		F13E101F273AADEE00A81B85 /* CountdownAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E101E273AADEE00A81B85 /* CountdownAppTests.swift */; };
 		F13E1029273AADEE00A81B85 /* CountdownAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E1028273AADEE00A81B85 /* CountdownAppUITests.swift */; };
 		F13E102B273AADEE00A81B85 /* CountdownAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E102A273AADEE00A81B85 /* CountdownAppUITestsLaunchTests.swift */; };
+		F13E103A273ABA0C00A81B85 /* CoordinatorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E1039273ABA0C00A81B85 /* CoordinatorProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F13E1024273AADEE00A81B85 /* CountdownAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13E1028273AADEE00A81B85 /* CountdownAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownAppUITests.swift; sourceTree = "<group>"; };
 		F13E102A273AADEE00A81B85 /* CountdownAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F13E1039273ABA0C00A81B85 /* CoordinatorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F13E1003273AADEC00A81B85 /* CountdownApp */ = {
 			isa = PBXGroup;
 			children = (
+				F13E103B273ABB3B00A81B85 /* Coordinator */,
 				F13E1004273AADEC00A81B85 /* AppDelegate.swift */,
 				F13E1006273AADEC00A81B85 /* SceneDelegate.swift */,
 				F13E1008273AADEC00A81B85 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				F13E102A273AADEE00A81B85 /* CountdownAppUITestsLaunchTests.swift */,
 			);
 			path = CountdownAppUITests;
+			sourceTree = "<group>";
+		};
+		F13E103B273ABB3B00A81B85 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F13E1039273ABA0C00A81B85 /* CoordinatorProtocols.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				F13E1009273AADEC00A81B85 /* ViewController.swift in Sources */,
 				F13E1005273AADEC00A81B85 /* AppDelegate.swift in Sources */,
+				F13E103A273ABA0C00A81B85 /* CoordinatorProtocols.swift in Sources */,
 				F13E1007273AADEC00A81B85 /* SceneDelegate.swift in Sources */,
 				F13E100F273AADEC00A81B85 /* CountdownApp.xcdatamodeld in Sources */,
 			);
