@@ -12,7 +12,7 @@ public protocol Coordinator {
     var children: [Coordinator] { get }
     var currentViewController: UIViewController? { get }
     var navigationController: UINavigationController { get }
-    
+
     func start(with naviagtionType: NavigationType)
 }
 

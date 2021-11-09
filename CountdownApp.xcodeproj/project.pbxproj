@@ -17,6 +17,8 @@
 		F13E1029273AADEE00A81B85 /* CountdownAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E1028273AADEE00A81B85 /* CountdownAppUITests.swift */; };
 		F13E102B273AADEE00A81B85 /* CountdownAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E102A273AADEE00A81B85 /* CountdownAppUITestsLaunchTests.swift */; };
 		F13E103A273ABA0C00A81B85 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E1039273ABA0C00A81B85 /* Coordinator.swift */; };
+		F13E103D273AC2F800A81B85 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E103C273AC2F800A81B85 /* AppCoordinator.swift */; };
+		F13E1040273AC44600A81B85 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E103F273AC44600A81B85 /* ParentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F13E1028273AADEE00A81B85 /* CountdownAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownAppUITests.swift; sourceTree = "<group>"; };
 		F13E102A273AADEE00A81B85 /* CountdownAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F13E1039273ABA0C00A81B85 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F13E103C273AC2F800A81B85 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F13E103F273AC44600A81B85 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		F13E1003273AADEC00A81B85 /* CountdownApp */ = {
 			isa = PBXGroup;
 			children = (
+				F13E103E273AC43900A81B85 /* Home */,
 				F13E103B273ABB3B00A81B85 /* Coordinator */,
 				F13E1004273AADEC00A81B85 /* AppDelegate.swift */,
 				F13E1006273AADEC00A81B85 /* SceneDelegate.swift */,
@@ -109,6 +114,7 @@
 				F13E1012273AADEE00A81B85 /* LaunchScreen.storyboard */,
 				F13E1015273AADEE00A81B85 /* Info.plist */,
 				F13E100D273AADEC00A81B85 /* CountdownApp.xcdatamodeld */,
+				F13E103C273AC2F800A81B85 /* AppCoordinator.swift */,
 			);
 			path = CountdownApp;
 			sourceTree = "<group>";
@@ -136,6 +142,14 @@
 				F13E1039273ABA0C00A81B85 /* Coordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F13E103E273AC43900A81B85 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F13E103F273AC44600A81B85 /* ParentViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13E103D273AC2F800A81B85 /* AppCoordinator.swift in Sources */,
 				F13E1009273AADEC00A81B85 /* ViewController.swift in Sources */,
 				F13E1005273AADEC00A81B85 /* AppDelegate.swift in Sources */,
+				F13E1040273AC44600A81B85 /* ParentViewController.swift in Sources */,
 				F13E103A273ABA0C00A81B85 /* Coordinator.swift in Sources */,
 				F13E1007273AADEC00A81B85 /* SceneDelegate.swift in Sources */,
 				F13E100F273AADEC00A81B85 /* CountdownApp.xcdatamodeld in Sources */,
