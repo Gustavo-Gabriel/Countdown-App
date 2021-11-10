@@ -109,11 +109,10 @@
 		F13E1003273AADEC00A81B85 /* CountdownApp */ = {
 			isa = PBXGroup;
 			children = (
-				F1E5E5FC273BFF1600B7C73E /* AppBuilder */,
 				F13E1041273AC6E500A81B85 /* App */,
-				F13E103E273AC43900A81B85 /* Home */,
-				F13E103B273ABB3B00A81B85 /* Coordinator */,
-				F13E1008273AADEC00A81B85 /* ViewController.swift */,
+				F1E5E5FC273BFF1600B7C73E /* AppBuilder */,
+				F1E5E5FE273C00DF00B7C73E /* Common */,
+				F1E5E5FD273C008900B7C73E /* Scenes */,
 				F13E1010273AADEE00A81B85 /* Assets.xcassets */,
 				F13E1012273AADEE00A81B85 /* LaunchScreen.storyboard */,
 				F13E1015273AADEE00A81B85 /* Info.plist */,
@@ -139,14 +138,6 @@
 			path = CountdownAppUITests;
 			sourceTree = "<group>";
 		};
-		F13E103B273ABB3B00A81B85 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				F13E1039273ABA0C00A81B85 /* Coordinator.swift */,
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
 		F13E103E273AC43900A81B85 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				F13E103F273AC44600A81B85 /* ParentViewController.swift */,
-				F13E103C273AC2F800A81B85 /* AppCoordinator.swift */,
+				F13E1008273AADEC00A81B85 /* ViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -168,10 +159,27 @@
 		F1E5E5FC273BFF1600B7C73E /* AppBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				F13E103C273AC2F800A81B85 /* AppCoordinator.swift */,
 				F13E1006273AADEC00A81B85 /* SceneDelegate.swift */,
 				F13E1004273AADEC00A81B85 /* AppDelegate.swift */,
 			);
 			path = AppBuilder;
+			sourceTree = "<group>";
+		};
+		F1E5E5FD273C008900B7C73E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F13E103E273AC43900A81B85 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F1E5E5FE273C00DF00B7C73E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F13E1039273ABA0C00A81B85 /* Coordinator.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
