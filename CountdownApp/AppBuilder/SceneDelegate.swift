@@ -3,17 +3,20 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    private var rootCoordinator: AppCoordinator?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-            guard let windowScene = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
 
-            let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = ViewController()
-            self.window = window
-            window.makeKeyAndVisible()
-        }
-
+        let window = UIWindow(windowScene: windowScene)
+        self.window = window
+        window.backgroundColor = UIColor.gray
+        
+        let rootCoordinator = AppCoordinator(window: window)
+        self.rootCoordinator = rootCoordinator
+        rootCoordinator.start()
+    }
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
@@ -44,7 +47,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Save changes in the application's managed object context when the application transitions to the background.
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
-
-
 }
 

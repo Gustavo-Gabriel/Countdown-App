@@ -19,6 +19,8 @@
 		F13E103A273ABA0C00A81B85 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E1039273ABA0C00A81B85 /* Coordinator.swift */; };
 		F13E103D273AC2F800A81B85 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E103C273AC2F800A81B85 /* AppCoordinator.swift */; };
 		F13E1040273AC44600A81B85 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E103F273AC44600A81B85 /* ParentViewController.swift */; };
+		F1E5E5F9273BF8A400B7C73E /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E5F8273BF8A400B7C73E /* HomeCoordinator.swift */; };
+		F1E5E5FB273BF94800B7C73E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E5FA273BF94800B7C73E /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		F13E1039273ABA0C00A81B85 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		F13E103C273AC2F800A81B85 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		F13E103F273AC44600A81B85 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		F1E5E5F8273BF8A400B7C73E /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		F1E5E5FA273BF94800B7C73E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +109,15 @@
 		F13E1003273AADEC00A81B85 /* CountdownApp */ = {
 			isa = PBXGroup;
 			children = (
+				F1E5E5FC273BFF1600B7C73E /* AppBuilder */,
+				F13E1041273AC6E500A81B85 /* App */,
 				F13E103E273AC43900A81B85 /* Home */,
 				F13E103B273ABB3B00A81B85 /* Coordinator */,
-				F13E1004273AADEC00A81B85 /* AppDelegate.swift */,
-				F13E1006273AADEC00A81B85 /* SceneDelegate.swift */,
 				F13E1008273AADEC00A81B85 /* ViewController.swift */,
 				F13E1010273AADEE00A81B85 /* Assets.xcassets */,
 				F13E1012273AADEE00A81B85 /* LaunchScreen.storyboard */,
 				F13E1015273AADEE00A81B85 /* Info.plist */,
 				F13E100D273AADEC00A81B85 /* CountdownApp.xcdatamodeld */,
-				F13E103C273AC2F800A81B85 /* AppCoordinator.swift */,
 			);
 			path = CountdownApp;
 			sourceTree = "<group>";
@@ -147,9 +150,28 @@
 		F13E103E273AC43900A81B85 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F13E103F273AC44600A81B85 /* ParentViewController.swift */,
+				F1E5E5F8273BF8A400B7C73E /* HomeCoordinator.swift */,
+				F1E5E5FA273BF94800B7C73E /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		F13E1041273AC6E500A81B85 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F13E103F273AC44600A81B85 /* ParentViewController.swift */,
+				F13E103C273AC2F800A81B85 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F1E5E5FC273BFF1600B7C73E /* AppBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F13E1006273AADEC00A81B85 /* SceneDelegate.swift */,
+				F13E1004273AADEC00A81B85 /* AppDelegate.swift */,
+			);
+			path = AppBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +309,8 @@
 				F13E1005273AADEC00A81B85 /* AppDelegate.swift in Sources */,
 				F13E1040273AC44600A81B85 /* ParentViewController.swift in Sources */,
 				F13E103A273ABA0C00A81B85 /* Coordinator.swift in Sources */,
+				F1E5E5FB273BF94800B7C73E /* HomeViewController.swift in Sources */,
+				F1E5E5F9273BF8A400B7C73E /* HomeCoordinator.swift in Sources */,
 				F13E1007273AADEC00A81B85 /* SceneDelegate.swift in Sources */,
 				F13E100F273AADEC00A81B85 /* CountdownApp.xcdatamodeld in Sources */,
 			);

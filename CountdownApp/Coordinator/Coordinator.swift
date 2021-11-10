@@ -9,7 +9,6 @@ public enum NavigationType: Equatable {
 }
 
 public protocol Coordinator {
-    var children: [Coordinator] { get }
     var currentViewController: UIViewController? { get }
     var navigationController: UINavigationController { get }
 
