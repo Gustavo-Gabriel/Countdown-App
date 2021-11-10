@@ -10,6 +10,7 @@ class HomeCoordinator: Coordinator {
 
     func start(with naviagtionType: NavigationType = .push) {
         let controller = createHomeViewController()
+        controller.delegate = self
         show(controller, with: naviagtionType)
     }
 
@@ -17,5 +18,13 @@ class HomeCoordinator: Coordinator {
         let homeViewController = HomeViewController()
         currentViewController = homeViewController
         return homeViewController
+    }
+}
+
+extension HomeCoordinator: HomeViewControllerDelegate {
+    func presentViewController() {
+        let controller = ViewController()
+        currentViewController = controller
+        show(controller, with: .push)
     }
 }

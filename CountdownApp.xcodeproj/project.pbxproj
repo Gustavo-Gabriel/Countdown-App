@@ -21,6 +21,12 @@
 		F13E1040273AC44600A81B85 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E103F273AC44600A81B85 /* ParentViewController.swift */; };
 		F1E5E5F9273BF8A400B7C73E /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E5F8273BF8A400B7C73E /* HomeCoordinator.swift */; };
 		F1E5E5FB273BF94800B7C73E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E5FA273BF94800B7C73E /* HomeViewController.swift */; };
+		F1E5E602273C01C200B7C73E /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E601273C01C200B7C73E /* AutoLayout.swift */; };
+		F1E5E604273C01F400B7C73E /* NSLayoutConstraintType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E603273C01F400B7C73E /* NSLayoutConstraintType.swift */; };
+		F1E5E606273C023D00B7C73E /* NSLayoutConstraint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E605273C023D00B7C73E /* NSLayoutConstraint+Ext.swift */; };
+		F1E5E609273C02BC00B7C73E /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E608273C02BC00B7C73E /* Array+Ext.swift */; };
+		F1E5E60B273C033200B7C73E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E60A273C033200B7C73E /* UIView+Ext.swift */; };
+		F1E5E60D273C06F400B7C73E /* HomeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E60C273C06F400B7C73E /* HomeViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,12 @@
 		F13E103F273AC44600A81B85 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		F1E5E5F8273BF8A400B7C73E /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		F1E5E5FA273BF94800B7C73E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F1E5E601273C01C200B7C73E /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		F1E5E603273C01F400B7C73E /* NSLayoutConstraintType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintType.swift; sourceTree = "<group>"; };
+		F1E5E605273C023D00B7C73E /* NSLayoutConstraint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Ext.swift"; sourceTree = "<group>"; };
+		F1E5E608273C02BC00B7C73E /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
+		F1E5E60A273C033200B7C73E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		F1E5E60C273C06F400B7C73E /* HomeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				F13E1041273AC6E500A81B85 /* App */,
+				F1E5E5FF273C01A700B7C73E /* Components */,
+				F1E5E607273C02A200B7C73E /* Extensions */,
 				F1E5E5FC273BFF1600B7C73E /* AppBuilder */,
 				F1E5E5FE273C00DF00B7C73E /* Common */,
 				F1E5E5FD273C008900B7C73E /* Scenes */,
@@ -143,6 +157,7 @@
 			children = (
 				F1E5E5F8273BF8A400B7C73E /* HomeCoordinator.swift */,
 				F1E5E5FA273BF94800B7C73E /* HomeViewController.swift */,
+				F1E5E60C273C06F400B7C73E /* HomeViewControllerDelegate.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -180,6 +195,33 @@
 				F13E1039273ABA0C00A81B85 /* Coordinator.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		F1E5E5FF273C01A700B7C73E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E600273C01B200B7C73E /* AutoLayout */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F1E5E600273C01B200B7C73E /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E601273C01C200B7C73E /* AutoLayout.swift */,
+				F1E5E603273C01F400B7C73E /* NSLayoutConstraintType.swift */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		F1E5E607273C02A200B7C73E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E608273C02BC00B7C73E /* Array+Ext.swift */,
+				F1E5E605273C023D00B7C73E /* NSLayoutConstraint+Ext.swift */,
+				F1E5E60A273C033200B7C73E /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,13 +355,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13E103D273AC2F800A81B85 /* AppCoordinator.swift in Sources */,
+				F1E5E609273C02BC00B7C73E /* Array+Ext.swift in Sources */,
 				F13E1009273AADEC00A81B85 /* ViewController.swift in Sources */,
 				F13E1005273AADEC00A81B85 /* AppDelegate.swift in Sources */,
+				F1E5E60B273C033200B7C73E /* UIView+Ext.swift in Sources */,
 				F13E1040273AC44600A81B85 /* ParentViewController.swift in Sources */,
 				F13E103A273ABA0C00A81B85 /* Coordinator.swift in Sources */,
 				F1E5E5FB273BF94800B7C73E /* HomeViewController.swift in Sources */,
 				F1E5E5F9273BF8A400B7C73E /* HomeCoordinator.swift in Sources */,
+				F1E5E606273C023D00B7C73E /* NSLayoutConstraint+Ext.swift in Sources */,
 				F13E1007273AADEC00A81B85 /* SceneDelegate.swift in Sources */,
+				F1E5E602273C01C200B7C73E /* AutoLayout.swift in Sources */,
+				F1E5E60D273C06F400B7C73E /* HomeViewControllerDelegate.swift in Sources */,
+				F1E5E604273C01F400B7C73E /* NSLayoutConstraintType.swift in Sources */,
 				F13E100F273AADEC00A81B85 /* CountdownApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
