@@ -37,6 +37,22 @@
 		F1E5E61D273C1D2F00B7C73E /* EventListEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E61C273C1D2F00B7C73E /* EventListEmptyStateView.swift */; };
 		F1E5E621273D4FAB00B7C73E /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E620273D4FAB00B7C73E /* EventListViewModel.swift */; };
 		F1E5E623273D512C00B7C73E /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E622273D512C00B7C73E /* EventListViewController.swift */; };
+		F1E5E625273D54DF00B7C73E /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E624273D54DF00B7C73E /* UIViewController+Ext.swift */; };
+		F1E5E627273D55AB00B7C73E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E626273D55AB00B7C73E /* Fonts.swift */; };
+		F1E5E62A273D55EC00B7C73E /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E629273D55EC00B7C73E /* FontFamily.swift */; };
+		F1E5E635273D5A4800B7C73E /* SansDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E62C273D5A4800B7C73E /* SansDisplay-ExtraBold.ttf */; };
+		F1E5E636273D5A4800B7C73E /* SansText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E62D273D5A4800B7C73E /* SansText-Regular.ttf */; };
+		F1E5E637273D5A4800B7C73E /* SansDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E62E273D5A4800B7C73E /* SansDisplay-Medium.ttf */; };
+		F1E5E638273D5A4800B7C73E /* SansText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E62F273D5A4800B7C73E /* SansText-SemiBold.ttf */; };
+		F1E5E639273D5A4800B7C73E /* SansDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E630273D5A4800B7C73E /* SansDisplay-Light.ttf */; };
+		F1E5E63A273D5A4800B7C73E /* SansDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E631273D5A4800B7C73E /* SansDisplay-SemiBold.ttf */; };
+		F1E5E63B273D5A4800B7C73E /* SansText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E632273D5A4800B7C73E /* SansText-Bold.ttf */; };
+		F1E5E63C273D5A4800B7C73E /* SansDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E633273D5A4800B7C73E /* SansDisplay-Regular.ttf */; };
+		F1E5E63D273D5A4800B7C73E /* SansDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E5E634273D5A4800B7C73E /* SansDisplay-Bold.ttf */; };
+		F1E5E641273D5B2400B7C73E /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E640273D5B2400B7C73E /* Assets.swift */; };
+		F1E5E643273D5CC400B7C73E /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E642273D5CC400B7C73E /* FontWeight.swift */; };
+		F1E5E645273D66CC00B7C73E /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E644273D66CC00B7C73E /* FontSize.swift */; };
+		F1E5E646273D6D8B00B7C73E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F13E1015273AADEE00A81B85 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +107,21 @@
 		F1E5E61C273C1D2F00B7C73E /* EventListEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListEmptyStateView.swift; sourceTree = "<group>"; };
 		F1E5E620273D4FAB00B7C73E /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
 		F1E5E622273D512C00B7C73E /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		F1E5E624273D54DF00B7C73E /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		F1E5E626273D55AB00B7C73E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		F1E5E629273D55EC00B7C73E /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
+		F1E5E62C273D5A4800B7C73E /* SansDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F1E5E62D273D5A4800B7C73E /* SansText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansText-Regular.ttf"; sourceTree = "<group>"; };
+		F1E5E62E273D5A4800B7C73E /* SansDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		F1E5E62F273D5A4800B7C73E /* SansText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansText-SemiBold.ttf"; sourceTree = "<group>"; };
+		F1E5E630273D5A4800B7C73E /* SansDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansDisplay-Light.ttf"; sourceTree = "<group>"; };
+		F1E5E631273D5A4800B7C73E /* SansDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		F1E5E632273D5A4800B7C73E /* SansText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansText-Bold.ttf"; sourceTree = "<group>"; };
+		F1E5E633273D5A4800B7C73E /* SansDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		F1E5E634273D5A4800B7C73E /* SansDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SansDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		F1E5E640273D5B2400B7C73E /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		F1E5E642273D5CC400B7C73E /* FontWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeight.swift; sourceTree = "<group>"; };
+		F1E5E644273D66CC00B7C73E /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +178,7 @@
 				F1E5E5FC273BFF1600B7C73E /* AppBuilder */,
 				F1E5E5FE273C00DF00B7C73E /* Common */,
 				F1E5E5FD273C008900B7C73E /* Scenes */,
-				F13E1010273AADEE00A81B85 /* Assets.xcassets */,
-				F13E1012273AADEE00A81B85 /* LaunchScreen.storyboard */,
-				F13E1015273AADEE00A81B85 /* Info.plist */,
+				F1E5E63E273D5ABE00B7C73E /* Supporting Files */,
 				F13E100D273AADEC00A81B85 /* CountdownApp.xcdatamodeld */,
 			);
 			path = CountdownApp;
@@ -226,7 +255,9 @@
 		F1E5E5FF273C01A700B7C73E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				F1E5E63F273D5B0200B7C73E /* Assets */,
 				F1E5E600273C01B200B7C73E /* AutoLayout */,
+				F1E5E628273D55B000B7C73E /* Fonts */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -247,6 +278,7 @@
 				F1E5E605273C023D00B7C73E /* NSLayoutConstraint+Ext.swift */,
 				F1E5E60A273C033200B7C73E /* UIView+Ext.swift */,
 				F1E5E614273C11FB00B7C73E /* UITableView+Ext.swift */,
+				F1E5E624273D54DF00B7C73E /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -268,6 +300,52 @@
 				F1E5E620273D4FAB00B7C73E /* EventListViewModel.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F1E5E628273D55B000B7C73E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E62B273D5A4800B7C73E /* SansFont */,
+				F1E5E626273D55AB00B7C73E /* Fonts.swift */,
+				F1E5E629273D55EC00B7C73E /* FontFamily.swift */,
+				F1E5E642273D5CC400B7C73E /* FontWeight.swift */,
+				F1E5E644273D66CC00B7C73E /* FontSize.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F1E5E62B273D5A4800B7C73E /* SansFont */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E62C273D5A4800B7C73E /* SansDisplay-ExtraBold.ttf */,
+				F1E5E62D273D5A4800B7C73E /* SansText-Regular.ttf */,
+				F1E5E62E273D5A4800B7C73E /* SansDisplay-Medium.ttf */,
+				F1E5E62F273D5A4800B7C73E /* SansText-SemiBold.ttf */,
+				F1E5E630273D5A4800B7C73E /* SansDisplay-Light.ttf */,
+				F1E5E631273D5A4800B7C73E /* SansDisplay-SemiBold.ttf */,
+				F1E5E632273D5A4800B7C73E /* SansText-Bold.ttf */,
+				F1E5E633273D5A4800B7C73E /* SansDisplay-Regular.ttf */,
+				F1E5E634273D5A4800B7C73E /* SansDisplay-Bold.ttf */,
+			);
+			path = SansFont;
+			sourceTree = "<group>";
+		};
+		F1E5E63E273D5ABE00B7C73E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13E1015273AADEE00A81B85 /* Info.plist */,
+				F13E1010273AADEE00A81B85 /* Assets.xcassets */,
+				F13E1012273AADEE00A81B85 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1E5E63F273D5B0200B7C73E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E640273D5B2400B7C73E /* Assets.swift */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,7 +453,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13E1014273AADEE00A81B85 /* LaunchScreen.storyboard in Resources */,
+				F1E5E636273D5A4800B7C73E /* SansText-Regular.ttf in Resources */,
+				F1E5E637273D5A4800B7C73E /* SansDisplay-Medium.ttf in Resources */,
+				F1E5E63A273D5A4800B7C73E /* SansDisplay-SemiBold.ttf in Resources */,
+				F1E5E638273D5A4800B7C73E /* SansText-SemiBold.ttf in Resources */,
+				F1E5E63B273D5A4800B7C73E /* SansText-Bold.ttf in Resources */,
+				F1E5E635273D5A4800B7C73E /* SansDisplay-ExtraBold.ttf in Resources */,
+				F1E5E639273D5A4800B7C73E /* SansDisplay-Light.ttf in Resources */,
+				F1E5E646273D6D8B00B7C73E /* Info.plist in Resources */,
+				F1E5E63D273D5A4800B7C73E /* SansDisplay-Bold.ttf in Resources */,
 				F13E1011273AADEE00A81B85 /* Assets.xcassets in Resources */,
+				F1E5E63C273D5A4800B7C73E /* SansDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,20 +498,26 @@
 				F13E1040273AC44600A81B85 /* ParentViewController.swift in Sources */,
 				F1E5E61B273C1C1A00B7C73E /* EventListProtocols.swift in Sources */,
 				F1E5E615273C11FB00B7C73E /* UITableView+Ext.swift in Sources */,
+				F1E5E643273D5CC400B7C73E /* FontWeight.swift in Sources */,
 				F1E5E619273C18D500B7C73E /* EventListCell.swift in Sources */,
+				F1E5E641273D5B2400B7C73E /* Assets.swift in Sources */,
 				F13E103A273ABA0C00A81B85 /* Coordinator.swift in Sources */,
+				F1E5E62A273D55EC00B7C73E /* FontFamily.swift in Sources */,
 				F1E5E5FB273BF94800B7C73E /* HomeViewController.swift in Sources */,
 				F1E5E60F273C0E3700B7C73E /* EventListView.swift in Sources */,
+				F1E5E625273D54DF00B7C73E /* UIViewController+Ext.swift in Sources */,
 				F1E5E5F9273BF8A400B7C73E /* HomeCoordinator.swift in Sources */,
 				F1E5E617273C12E800B7C73E /* ReusableView.swift in Sources */,
 				F1E5E613273C103A00B7C73E /* Event.swift in Sources */,
 				F1E5E606273C023D00B7C73E /* NSLayoutConstraint+Ext.swift in Sources */,
+				F1E5E645273D66CC00B7C73E /* FontSize.swift in Sources */,
 				F13E1007273AADEC00A81B85 /* SceneDelegate.swift in Sources */,
 				F1E5E602273C01C200B7C73E /* AutoLayout.swift in Sources */,
 				F1E5E60D273C06F400B7C73E /* HomeViewControllerDelegate.swift in Sources */,
 				F1E5E611273C0FB400B7C73E /* EventListViewDataSource.swift in Sources */,
 				F1E5E621273D4FAB00B7C73E /* EventListViewModel.swift in Sources */,
 				F1E5E604273C01F400B7C73E /* NSLayoutConstraintType.swift in Sources */,
+				F1E5E627273D55AB00B7C73E /* Fonts.swift in Sources */,
 				F13E100F273AADEC00A81B85 /* CountdownApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -748,7 +842,7 @@
 				F13E102D273AADEE00A81B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F13E102E273AADEE00A81B85 /* Build configuration list for PBXNativeTarget "CountdownApp" */ = {
 			isa = XCConfigurationList;
@@ -757,7 +851,7 @@
 				F13E1030273AADEE00A81B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F13E1031273AADEE00A81B85 /* Build configuration list for PBXNativeTarget "CountdownAppTests" */ = {
 			isa = XCConfigurationList;
@@ -766,7 +860,7 @@
 				F13E1033273AADEE00A81B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F13E1034273AADEE00A81B85 /* Build configuration list for PBXNativeTarget "CountdownAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -775,7 +869,7 @@
 				F13E1036273AADEE00A81B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

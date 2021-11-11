@@ -109,11 +109,11 @@ public class AutoLayout {
                                                 secondView: alignedWith,
                                                 relation: relation,
                                                 constant: -offSet)
-        
+
         constraint.isActive = true
         return constraint
     }
-    
+
     @discardableResult
     public func under(view: UIView,
                       relation: NSLayoutConstraintType = .equal,
@@ -124,12 +124,12 @@ public class AutoLayout {
                                                  bottomItem: self.view,
                                                  relation: relation,
                                                  constant: offSet)
-        
+
         constraint.priority = priority
         constraint.isActive = true
         return constraint
     }
-    
+
     @discardableResult
     public func above(view: UIView,
                       relation: NSLayoutConstraintType = .equal,
@@ -285,7 +285,7 @@ public class AutoLayout {
     public func center(in view: UIView,
                        relation: NSLayoutConstraintType = .equal,
                        offSet: Float = 0) {
-        
+
         horizontalCenter(view: view, relation: relation, offSet: offSet)
         verticalCenter(view: view, relation: relation, offSet: offSet)
     }
