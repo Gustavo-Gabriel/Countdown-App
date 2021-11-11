@@ -27,7 +27,7 @@
 		F1E5E609273C02BC00B7C73E /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E608273C02BC00B7C73E /* Array+Ext.swift */; };
 		F1E5E60B273C033200B7C73E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E60A273C033200B7C73E /* UIView+Ext.swift */; };
 		F1E5E60D273C06F400B7C73E /* HomeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E60C273C06F400B7C73E /* HomeViewControllerDelegate.swift */; };
-		F1E5E60F273C0E3700B7C73E /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E60E273C0E3700B7C73E /* EventList.swift */; };
+		F1E5E60F273C0E3700B7C73E /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E60E273C0E3700B7C73E /* EventListView.swift */; };
 		F1E5E611273C0FB400B7C73E /* EventListViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E610273C0FB400B7C73E /* EventListViewDataSource.swift */; };
 		F1E5E613273C103A00B7C73E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E612273C103A00B7C73E /* Event.swift */; };
 		F1E5E615273C11FB00B7C73E /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E614273C11FB00B7C73E /* UITableView+Ext.swift */; };
@@ -35,6 +35,8 @@
 		F1E5E619273C18D500B7C73E /* EventListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E618273C18D500B7C73E /* EventListCell.swift */; };
 		F1E5E61B273C1C1A00B7C73E /* EventListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E61A273C1C1A00B7C73E /* EventListProtocols.swift */; };
 		F1E5E61D273C1D2F00B7C73E /* EventListEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E61C273C1D2F00B7C73E /* EventListEmptyStateView.swift */; };
+		F1E5E621273D4FAB00B7C73E /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E620273D4FAB00B7C73E /* EventListViewModel.swift */; };
+		F1E5E623273D512C00B7C73E /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E622273D512C00B7C73E /* EventListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +81,7 @@
 		F1E5E608273C02BC00B7C73E /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
 		F1E5E60A273C033200B7C73E /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		F1E5E60C273C06F400B7C73E /* HomeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerDelegate.swift; sourceTree = "<group>"; };
-		F1E5E60E273C0E3700B7C73E /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		F1E5E60E273C0E3700B7C73E /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		F1E5E610273C0FB400B7C73E /* EventListViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewDataSource.swift; sourceTree = "<group>"; };
 		F1E5E612273C103A00B7C73E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		F1E5E614273C11FB00B7C73E /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
@@ -87,6 +89,8 @@
 		F1E5E618273C18D500B7C73E /* EventListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCell.swift; sourceTree = "<group>"; };
 		F1E5E61A273C1C1A00B7C73E /* EventListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListProtocols.swift; sourceTree = "<group>"; };
 		F1E5E61C273C1D2F00B7C73E /* EventListEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListEmptyStateView.swift; sourceTree = "<group>"; };
+		F1E5E620273D4FAB00B7C73E /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		F1E5E622273D512C00B7C73E /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,11 +178,9 @@
 				F1E5E5F8273BF8A400B7C73E /* HomeCoordinator.swift */,
 				F1E5E5FA273BF94800B7C73E /* HomeViewController.swift */,
 				F1E5E60C273C06F400B7C73E /* HomeViewControllerDelegate.swift */,
-				F1E5E60E273C0E3700B7C73E /* EventList.swift */,
 				F1E5E610273C0FB400B7C73E /* EventListViewDataSource.swift */,
 				F1E5E612273C103A00B7C73E /* Event.swift */,
 				F1E5E618273C18D500B7C73E /* EventListCell.swift */,
-				F1E5E61A273C1C1A00B7C73E /* EventListProtocols.swift */,
 				F1E5E61C273C1D2F00B7C73E /* EventListEmptyStateView.swift */,
 			);
 			path = Home;
@@ -206,6 +208,7 @@
 		F1E5E5FD273C008900B7C73E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F1E5E61E273D4F8A00B7C73E /* Event */,
 				F13E103E273AC43900A81B85 /* Home */,
 			);
 			path = Scenes;
@@ -246,6 +249,25 @@
 				F1E5E614273C11FB00B7C73E /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1E5E61E273D4F8A00B7C73E /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E61A273C1C1A00B7C73E /* EventListProtocols.swift */,
+				F1E5E61F273D4F9500B7C73E /* Views */,
+				F1E5E622273D512C00B7C73E /* EventListViewController.swift */,
+				F1E5E60E273C0E3700B7C73E /* EventListView.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		F1E5E61F273D4F9500B7C73E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5E620273D4FAB00B7C73E /* EventListViewModel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +405,7 @@
 				F13E1009273AADEC00A81B85 /* ViewController.swift in Sources */,
 				F13E1005273AADEC00A81B85 /* AppDelegate.swift in Sources */,
 				F1E5E61D273C1D2F00B7C73E /* EventListEmptyStateView.swift in Sources */,
+				F1E5E623273D512C00B7C73E /* EventListViewController.swift in Sources */,
 				F1E5E60B273C033200B7C73E /* UIView+Ext.swift in Sources */,
 				F13E1040273AC44600A81B85 /* ParentViewController.swift in Sources */,
 				F1E5E61B273C1C1A00B7C73E /* EventListProtocols.swift in Sources */,
@@ -390,7 +413,7 @@
 				F1E5E619273C18D500B7C73E /* EventListCell.swift in Sources */,
 				F13E103A273ABA0C00A81B85 /* Coordinator.swift in Sources */,
 				F1E5E5FB273BF94800B7C73E /* HomeViewController.swift in Sources */,
-				F1E5E60F273C0E3700B7C73E /* EventList.swift in Sources */,
+				F1E5E60F273C0E3700B7C73E /* EventListView.swift in Sources */,
 				F1E5E5F9273BF8A400B7C73E /* HomeCoordinator.swift in Sources */,
 				F1E5E617273C12E800B7C73E /* ReusableView.swift in Sources */,
 				F1E5E613273C103A00B7C73E /* Event.swift in Sources */,
@@ -399,6 +422,7 @@
 				F1E5E602273C01C200B7C73E /* AutoLayout.swift in Sources */,
 				F1E5E60D273C06F400B7C73E /* HomeViewControllerDelegate.swift in Sources */,
 				F1E5E611273C0FB400B7C73E /* EventListViewDataSource.swift in Sources */,
+				F1E5E621273D4FAB00B7C73E /* EventListViewModel.swift in Sources */,
 				F1E5E604273C01F400B7C73E /* NSLayoutConstraintType.swift in Sources */,
 				F13E100F273AADEC00A81B85 /* CountdownApp.xcdatamodeld in Sources */,
 			);
